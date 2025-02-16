@@ -200,5 +200,5 @@ class DatePickerApp:
 if __name__ == "__main__":
     root = tk.Tk()
     export_logs_to_csv("windows_logs.csv")
-    app = DatePickerApp(root, "windows_logs copy 2.csv")
+    app = DatePickerApp(root, "windows_logs.csv")
     root.mainloop()
